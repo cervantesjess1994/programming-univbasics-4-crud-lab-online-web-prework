@@ -1,17 +1,17 @@
 def create_an_empty_array
-  puts []
+  []
 end
 
-def create_an_array
+def create_an_array = pinks
   puts ["light pink", "pink", "hot pink", "fuschia"]
 end
 
 def add_element_to_end_of_array(array, element)
-  puts "#{array}<< #{element}"
+  puts pinks<<blue
 end
 
 def add_element_to_start_of_array(array, element)
-  puts "#{array}.unshift(#{element})"
+  puts pinks.unshift
 end
 
 def remove_element_from_end_of_array(array)
